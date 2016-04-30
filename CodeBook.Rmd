@@ -1,0 +1,108 @@
+---
+title: "CodeBook"
+author: "Daniel Romotsky"
+date: "April 30, 2016"
+output: html_document
+---
+
+#Code Book
+=========
+## This summarizes all the data fields in output "tidy.txt"
+--------------------------------------------------------
+
+##  2 major identifiers
+    Activity = type of activity (walk, sit, etc)
+    Person = subject identifier (numered 1-30)
+    
+
+##  FEATURES (or variables) = time and frequency reads, averaged at the Activity and Person group.
+    Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity (x,y,z) at a constant rate of 50Hz.
+
+    tbodyacc_mean-x
+    tbodyacc_mean-y
+    tbodyacc_mean-z
+    tbodyacc_stdev-x
+    tbodyacc_stdev-y
+    tbodyacc_stdev-z
+    tgravityacc_mean-x
+    tgravityacc_mean-y
+    tgravityacc_mean-z
+    tgravityacc_stdev-x
+    tgravityacc_stdev-y
+    tgravityacc_stdev-z
+    tbodyaccjerk_mean-x
+    tbodyaccjerk_mean-y
+    tbodyaccjerk_mean-z
+    tbodyaccjerk_stdev-x
+    tbodyaccjerk_stdev-y
+    tbodyaccjerk_stdev-z
+    tbodygyro_mean-x
+    tbodygyro_mean-y
+    tbodygyro_mean-z
+    tbodygyro_stdev-x
+    tbodygyro_stdev-y
+    tbodygyro_stdev-z
+    tbodygyrojerk_mean-x
+    tbodygyrojerk_mean-y
+    tbodygyrojerk_mean-z
+    tbodygyrojerk_stdev-x
+    tbodygyrojerk_stdev-y
+    tbodygyrojerk_stdev-z
+    tbodyaccmag_mean
+    tbodyaccmag_stdev
+    tgravityaccmag_mean
+    tgravityaccmag_stdev
+    tbodyaccjerkmag_mean
+    tbodyaccjerkmag_stdev
+    tbodygyromag_mean
+    tbodygyromag_stdev
+    tbodygyrojerkmag_mean
+    tbodygyrojerkmag_stdev
+    fbodyacc_mean-x
+    fbodyacc_mean-y
+    fbodyacc_mean-z
+    fbodyacc_stdev-x
+    fbodyacc_stdev-y
+    fbodyacc_stdev-z
+    fbodyacc-mean_freq-x
+    fbodyacc-mean_freq-y
+    fbodyacc-mean_freq-z
+    fbodyaccjerk_mean-x
+    fbodyaccjerk_mean-y
+    fbodyaccjerk_mean-z
+    fbodyaccjerk_stdev-x
+    fbodyaccjerk_stdev-y
+    fbodyaccjerk_stdev-z
+    fbodyaccjerk-mean_freq-x
+    fbodyaccjerk-mean_freq-y
+    fbodyaccjerk-mean_freq-z
+    fbodygyro_mean-x
+    fbodygyro_mean-y
+    fbodygyro_mean-z
+    fbodygyro_stdev-x
+    fbodygyro_stdev-y
+    fbodygyro_stdev-z
+    fbodygyro-mean_freq-x
+    fbodygyro-mean_freq-y
+    fbodygyro-mean_freq-z
+    fbodyaccmag_mean
+    fbodyaccmag_stdev
+    fbodyaccmag-mean_freq
+    fbodybodyaccjerkmag_mean
+    fbodybodyaccjerkmag_stdev
+    fbodybodyaccjerkmag-mean_freq
+    fbodybodygyromag_mean
+    fbodybodygyromag_stdev
+    fbodybodygyromag-mean_freq
+    fbodybodygyrojerkmag_mean
+    fbodybodygyrojerkmag_stdev
+    fbodybodygyrojerkmag-mean_freq
+    angle(tbodyacc_mean,gravity)
+    angle(tbodyaccjerk_mean),gravity_mean)
+    angle(tbodygyro_mean,gravity_mean)
+    angle(tbodygyrojerk_mean,gravity_mean)
+    angle(x,gravity_mean)
+    angle(y,gravity_mean)
+    angle(z,gravity_mean)
+
+  
